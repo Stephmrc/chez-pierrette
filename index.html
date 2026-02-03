@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chez Pierrette | Restaurant Meilhan-sur-Garonne</title>
+    <meta name="description" content="Chez Pierrette - Bistro contemporain au bord du Canal de Garonne. Cuisine de saison, carte courte, vins de copains. Meilhan-sur-Garonne.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Chez Pierrette</a>
+            <button class="nav-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#concept">Notre Concept</a></li>
+                <li><a href="#carte">La Carte</a></li>
+                <li><a href="#histoire">Notre Histoire</a></li>
+                <li><a href="#infos">Infos Pratiques</a></li>
+                <li><a href="#reservation" class="btn btn-nav">Réserver</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="accueil" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <span class="hero-tag">Bistro contemporain • Meilhan-sur-Garonne</span>
+            <h1>Chez Pierrette</h1>
+            <p class="hero-tagline">Cuisine de saison, carte courte, vins de copains</p>
+            <div class="hero-badges">
+                <div class="badge">
+                    <span class="badge-icon">🍴</span>
+                    <span>Collège Culinaire de France</span>
+                </div>
+                <div class="badge">
+                    <span class="badge-icon">⭐</span>
+                    <span>Guide Michelin 2024</span>
+                </div>
+            </div>
+            <a href="#reservation" class="btn btn-primary">Réserver une table</a>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-mouse"></div>
+        </div>
+    </header>
+
+    <!-- Concept Section -->
+    <section id="concept" class="concept-section">
+        <div class="container">
+            <div class="concept-grid">
+                <div class="concept-content">
+                    <span class="section-tag">Notre Philosophie</span>
+                    <h2>Simple, bon, sincère</h2>
+                    <p class="lead">Un bistro contemporain où chaque assiette raconte une histoire de saison, de terroir et de passion.</p>
+                    <p>Chez Pierrette, on aime les choses bien faites. Une carte courte qui change au fil des saisons, des produits sourcés avec soin, et des vins de copains vignerons qu'on a envie de partager.</p>
+
+                    <div class="concept-pillars">
+                        <div class="pillar">
+                            <div class="pillar-icon">🌿</div>
+                            <h4>Saison</h4>
+                            <p>Une carte qui suit le rythme des saisons et des producteurs locaux</p>
+                        </div>
+                        <div class="pillar">
+                            <div class="pillar-icon">📝</div>
+                            <h4>Carte courte</h4>
+                            <p>Moins de choix, plus de qualité. Chaque plat est pensé et maîtrisé</p>
+                        </div>
+                        <div class="pillar">
+                            <div class="pillar-icon">🍷</div>
+                            <h4>Vins de copains</h4>
+                            <p>Une sélection de vignerons qu'on connaît et qu'on aime</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="concept-images">
+                    <div class="concept-img main">
+                        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600&h=800&fit=crop" alt="Plat signature">
+                    </div>
+                    <div class="concept-img secondary">
+                        <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=400&h=300&fit=crop" alt="Ambiance bistro">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="carte" class="menu-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">À table</span>
+                <h2>La Carte</h2>
+                <p>Une carte courte qui évolue au fil des saisons<br>Voici un aperçu de nos propositions actuelles</p>
+            </div>
+
+            <div class="menu-wrapper">
+                <div class="menu-card">
+                    <div class="menu-category">
+                        <h3>Pour commencer</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <span class="item-name">Thon blanc confit</span>
+                                    <span class="item-price">14€</span>
+                                </div>
+                                <p class="item-desc">Brocoli grillé, sumac, vinaigrette mandarine</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <span class="item-name">Velouté de saison</span>
+                                    <span class="item-price">10€</span>
+                                </div>
+                                <p class="item-desc">Selon l'arrivage et l'humeur du chef</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <span class="item-name">Terrine maison</span>
+                                    <span class="item-price">12€</span>
+                                </div>
+                                <p class="item-desc">Pickles du moment, pain toasté</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-category">
+                        <h3>Plats</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <span class="item-name">Suprême de volaille</span>
+                                    <span class="item-price">24€</span>
+                                </div>
+                                <p class="item-desc">Jus à l'ail noir, purée de céleri, cacahuètes torréfiées</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <span class="item-name">Poisson du marché</span>
+                                    <span class="item-price">26€</span>
+                                </div>
+                                <p class="item-desc">Garniture du moment, beurre noisette</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <span class="item-name">Végétal</span>
+                                    <span class="item-price">20€</span>
+                                </div>
+                                <p class="item-desc">Légumes de saison cuisinés avec créativité</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-category">
+                        <h3>Pour finir</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <span class="item-name">Affogato noisette-chocolat</span>
+                                    <span class="item-price">9€</span>
+                                </div>
+                                <p class="item-desc">Glace maison, expresso, éclats de noisettes</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-header">
+                                    <span class="item-name">Dessert du moment</span>
+                                    <span class="item-price">10€</span>
+                                </div>
+                                <p class="item-desc">Au gré de l'inspiration et des saisons</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-aside">
+                    <div class="menu-formula">
+                        <span class="formula-tag">Formule Déjeuner</span>
+                        <div class="formula-price">22€</div>
+                        <p>Entrée + Plat ou Plat + Dessert</p>
+                        <span class="formula-note">Du jeudi au samedi midi</span>
+                    </div>
+
+                    <div class="menu-wine">
+                        <h4>🍷 Vins de copains</h4>
+                        <p>Demandez notre sélection de vins naturels et de petits producteurs. On aime les partager et en parler.</p>
+                    </div>
+
+                    <div class="menu-note">
+                        <p><em>La carte évolue régulièrement selon les saisons et l'inspiration. Allergies ou régimes particuliers ? Parlez-nous en lors de la réservation.</em></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section id="histoire" class="story-section">
+        <div class="story-bg"></div>
+        <div class="container">
+            <div class="story-content">
+                <span class="section-tag">Notre Histoire</span>
+                <h2>Retour aux sources</h2>
+                <div class="story-text">
+                    <p class="lead">Après avoir globe-bistrotté de Londres à la Sardaigne, en passant par Saint-Jean-de-Luz et la Dordogne, Tippi et Mathieu ont posé leurs valises là où tout a commencé.</p>
+                    <p>Tippi Brown, franco-britannique, et Mathieu Tauzin, natif du Lot, se sont rencontrés au détour d'une cuisine. Ensemble, ils ont fait leurs armes dans les plus belles maisons : Instincts à Saint-Jean-de-Luz, le Manoir d'Hautegente en Dordogne...</p>
+                    <p>En juillet 2024, ils ont réalisé leur rêve : ouvrir leur propre maison. Ce lieu, c'est celui de Pierrette, la grand-mère de Mathieu. En hommage à elle et à cette région qu'ils aiment tant, ils ont créé ce bistro contemporain au bord du Canal de Garonne.</p>
+                </div>
+                <div class="story-signature">
+                    <p>Tippi & Mathieu</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ambiance Gallery -->
+    <section class="gallery-section">
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop" alt="Salle du restaurant">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop" alt="Plat gastronomique">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=600&h=400&fit=crop" alt="Sélection de vins">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=600&h=400&fit=crop" alt="Canal de Garonne">
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section id="infos" class="info-section">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-card hours">
+                    <div class="info-icon">🕐</div>
+                    <h3>Horaires</h3>
+                    <div class="hours-list">
+                        <div class="hours-row closed">
+                            <span>Lundi - Mercredi</span>
+                            <span>Fermé</span>
+                        </div>
+                        <div class="hours-row">
+                            <span>Jeudi - Samedi</span>
+                            <span>12h-14h • 19h-21h30</span>
+                        </div>
+                        <div class="hours-row">
+                            <span>Dimanche</span>
+                            <span>12h-14h</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-card location">
+                    <div class="info-icon">📍</div>
+                    <h3>Nous trouver</h3>
+                    <p class="address">
+                        1 Rue de la Roque<br>
+                        47180 Meilhan-sur-Garonne
+                    </p>
+                    <p class="location-note">Au bord du Canal de Garonne<br>Terrasse avec vue sur l'eau</p>
+                    <a href="https://maps.google.com/?q=1+Rue+de+la+Roque+47180+Meilhan-sur-Garonne" target="_blank" class="btn btn-outline">Voir sur la carte</a>
+                </div>
+
+                <div class="info-card contact">
+                    <div class="info-icon">📞</div>
+                    <h3>Réserver</h3>
+                    <a href="tel:+33553839638" class="phone">05 53 83 96 38</a>
+                    <p class="contact-note">Réservation conseillée<br>25 places en salle • 20 en terrasse</p>
+                    <div class="languages">
+                        <span>🇫🇷</span>
+                        <span>🇬🇧</span>
+                        <span>🇮🇹</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation CTA -->
+    <section id="reservation" class="reservation-section">
+        <div class="container">
+            <div class="reservation-content">
+                <span class="section-tag">À bientôt</span>
+                <h2>Réservez votre table</h2>
+                <p>Pour une expérience au calme au bord du canal, la réservation est vivement conseillée.<br>N'hésitez pas à nous préciser vos allergies ou demandes particulières.</p>
+
+                <div class="reservation-options">
+                    <a href="tel:+33553839638" class="btn btn-primary btn-large">
+                        <span class="btn-icon">📞</span>
+                        Appeler le 05 53 83 96 38
+                    </a>
+                </div>
+
+                <div class="reservation-info">
+                    <div class="res-item">
+                        <span>💳</span>
+                        <p>CB & Espèces acceptés</p>
+                    </div>
+                    <div class="res-item">
+                        <span>❄️</span>
+                        <p>Salle climatisée</p>
+                    </div>
+                    <div class="res-item">
+                        <span>☀️</span>
+                        <p>Terrasse vue canal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.8!2d0.0351!3d44.5167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ab!2sMeilhan-sur-Garonne%2C%20France!5e0!3m2!1sfr!2sfr!4v1700000000000!5m2!1sfr!2sfr"
+            width="100%"
+            height="400"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Chez Pierrette</h3>
+                    <p>Bistro contemporain</p>
+                    <p class="footer-address">1 Rue de la Roque<br>47180 Meilhan-sur-Garonne</p>
+                </div>
+
+                <div class="footer-links">
+                    <a href="#accueil">Accueil</a>
+                    <a href="#concept">Concept</a>
+                    <a href="#carte">Carte</a>
+                    <a href="#histoire">Histoire</a>
+                    <a href="#infos">Infos</a>
+                </div>
+
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/restaurant_chezpierrette/" target="_blank" aria-label="Instagram" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Facebook" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Chez Pierrette. Tous droits réservés.</p>
+                <p class="credit">Site créé par <a href="#">Stéphane Marcy - Développeur Web</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
